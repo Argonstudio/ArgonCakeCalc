@@ -1,0 +1,15 @@
+/* Copyright (C) 2026 Ivan Voitkov. ARGONCAKECALC-COMMERCIAL-1.0.
+ * https://argon-studio.ru/ | https://github.com/Argonstudio/ArgonCakeCalc
+ * Preserve author/origin attribution under section 7 of the Commercial Source-Available License; see ADDITIONAL_TERMS.md. */
+/* Single atomic IndexedDB snapshot with previous valid state and revision control. */
+(function(root){'use strict';
+const CakeI18n=globalThis.CakeI18n||(typeof require==='function'?require('./i18n.js'):null),T=CakeI18n.t;
+class Store{
+ constructor(){this.db=null;this.revision=0;this.pending=null;this.busy=false;this.conflict=false;this.lastError=null;this.onstatus=()=>{};this.channel=typeof BroadcastChannel!=='undefined'?new BroadcastChannel('cakecalc-v1'):null;this.channel?.addEventListener('message',()=>this.onexternal?.());}
+ async open(){this.db=await new Promise((res,rej)=>{const r=indexedDB.open('CakeCalc',1);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains('snapshots'))r.result.createObjectStore('snapshots');};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);r.onblocked=()=>rej(Error(T("Закройте другие вкладки ArgonCakeCalc и повторите загрузку.")));});this.db.onversionchange=()=>{this.db.close();this.conflict=true;this.onstatus('error',T("Приложение обновляется в другой вкладке. Сохраните JSON и перезагрузите страницу."));};const current=await this.get('current');this.revision=current?.revision||0;return current?.data||null;}
+ get(key){return new Promise((res,rej)=>{const tx=this.db.transaction('snapshots','readonly'),r=tx.objectStore('snapshots').get(key);r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error);});}
+ save(data){this.pending=structuredClone(data);this.onstatus('saving',T("Сохранение…"));if(!this.busy)this.drain();}
+ async drain(){if(this.busy||!this.pending)return;this.busy=true;try{while(this.pending){const data=this.pending;this.pending=null;await new Promise((res,rej)=>{const tx=this.db.transaction('snapshots','readwrite'),s=tx.objectStore('snapshots'),get=s.get('current');let error=null;get.onsuccess=()=>{const old=get.result;if((old?.revision||0)!==this.revision){error=Error(T("База изменена в другой вкладке. Экспортируйте текущие данные в JSON, затем перезагрузите страницу."));this.conflict=true;tx.abort();return;}if(old)s.put(old,'previous');s.put({revision:this.revision+1,data,updatedAt:new Date().toISOString()},'current');};tx.oncomplete=()=>{this.revision++;res();};tx.onerror=()=>rej(error||tx.error||Error(T("Ошибка записи IndexedDB.")));tx.onabort=()=>rej(error||tx.error||Error(T("Запись отменена.")));});this.channel?.postMessage({revision:this.revision});}this.onstatus('saved',T("Все изменения сохранены локально"));}catch(e){this.lastError=e;this.pending=null;this.onstatus('error',T.l`${e.message} Скачайте резервную копию JSON.`);this.onfailure?.(e);}finally{this.busy=false;}}
+ async flush(){while(this.busy||this.pending){if(!this.busy)this.drain();await new Promise(r=>setTimeout(r,20));}if(this.lastError)throw this.lastError;if(this.conflict)throw Error(T("Конфликт вкладок: запись не выполнена."));}
+}
+root.CakeStore=Store;})(globalThis);

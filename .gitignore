@@ -1,0 +1,9 @@
+node_modules/
+tests/output/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+_site/
+*.zip

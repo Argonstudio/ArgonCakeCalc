@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.png binary
+*.ttf binary
+*.woff2 binary
+# Generated assets are committed for immediate no-build deployment.
+assets/pdf-font*.js linguist-generated=true
+assets/locales.js linguist-generated=true
+ArgonCakeCalc.html linguist-generated=true
+sw.js linguist-generated=true

@@ -1,0 +1,44 @@
+name: Deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python tools/build-locales.py --check
+      - run: python tools/build-standalone.py --check
+      - run: node tests/core.test.cjs && node tests/geometry.test.cjs && node tests/review.test.cjs && node tests/languages.test.cjs && node tests/pdf-font.test.cjs && node tests/sw-cache.test.cjs
+      - run: python tests/independent-oracle.py
+      - run: python tests/build.test.py
+      - name: Stage static site
+        run: |
+          mkdir _site
+          cp index.html ArgonCakeCalc.html manifest.webmanifest sw.js LICENSE COPYING NOTICE ADDITIONAL_TERMS.md THIRD_PARTY.md README.md README.ru.md _site/
+          cp -r shop _site/
+          cp -r assets docs locales _site/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment

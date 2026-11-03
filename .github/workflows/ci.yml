@@ -1,0 +1,40 @@
+name: Test
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  calculations-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - run: npm run test:oracle
+      - run: python tests/build.test.py
+      - run: npx playwright install --with-deps chromium
+      - name: Browser regression and language tests
+        run: |
+          export CHROMIUM_PATH="$(node -p "require('playwright').chromium.executablePath()")"
+          export BASE_URL=http://localhost:8093
+          python -m http.server 8093 > /tmp/argoncakecalc-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          for i in $(seq 1 30); do curl -fsS "$BASE_URL/index.html" >/dev/null && break || sleep 1; done
+          npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-test-output
+          path: tests/output
+          if-no-files-found: ignore

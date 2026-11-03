@@ -1,0 +1,131 @@
+ARGONCAKECALC COMMERCIAL SOURCE-AVAILABLE LICENSE
+Version 1.0 — 2026-10-31
+
+Copyright (C) 2026 Ivan Voitkov
+Author website: https://argon-studio.ru/
+Project repository: https://github.com/Argonstudio/ArgonCakeCalc
+
+This license applies to the ArgonCakeCalc application code and documentation
+created for this project. Third-party components, including bundled fonts, are
+licensed separately; see THIRD_PARTY.md and the notices distributed with them.
+
+1. Definitions
+
+“Software” means ArgonCakeCalc, including its source code, standalone HTML
+build, documentation, tests and other files identified as part of this project.
+“Licensor” means Ivan Voitkov, unless a written notice in the repository names
+another copyright holder for a specific component.
+“Licensee” means the person or organization that receives a valid license.
+“License Fee” means a payment of at least the equivalent of 1 USD, or a higher
+amount chosen by the payer, made through the official payment page identified in
+the project documentation or shop page.
+
+2. License grant
+
+After the License Fee has been successfully paid and while this license is
+followed, the Licensor grants the Licensee a non-exclusive, worldwide,
+non-transferable license to:
+
+* download and install the Software;
+* run the Software for personal or internal business work;
+* make reasonable private modifications needed for that work; and
+* keep archival copies for the Licensee’s own use.
+
+If an organization purchases the license, its employees and contractors may use
+the Software for that organization’s internal work while acting on its behalf.
+
+3. Source availability and evaluation period
+
+The source code may be publicly visible on GitHub for transparency, review and
+community feedback. Public visibility does not grant permission to use,
+compile, deploy, modify for distribution, sublicense or redistribute the
+Software without a valid license under this agreement.
+
+Before payment, a person may download and use the full Software free of charge
+for one (1) month solely to evaluate its functionality and fitness for their
+purposes. After that evaluation period, continued personal or internal business
+use requires a paid license. This evaluation permission is a limited trial,
+not a transfer of ownership or a permission to redistribute the Software.
+
+4. Restrictions
+
+Without the Licensor’s prior written permission, the Licensee may not:
+
+* sell, rent, sublicense, publish or redistribute the Software or a modified
+  version of it;
+* offer the Software as a hosted service or include it in a product distributed
+  to third parties;
+* remove or obscure copyright, license, author or origin notices; or
+* represent a modified version as an official release of ArgonCakeCalc.
+
+A modification made only for the Licensee’s private or internal work does not
+need to be published, but all applicable notices must remain intact.
+
+5. Payment, trial, support and refund policy
+
+Before payment, the Licensee may use the full Software free of charge for one
+(1) month to evaluate it. The Software is available immediately and payment is
+not required to download or open it during the evaluation period. After the
+trial, continued personal or internal business use requires a paid license.
+
+The payer chooses the License Fee, starting at the equivalent of 1 USD, and
+confirms the amount before completing the payment. Because the Software and its
+full functionality are available before payment, payment is an intentional
+license decision made after evaluation. A payment of any amount selected by the
+payer, including an amount higher than the payer later expected, is not treated
+as an accidental payment solely because the payer changed their mind.
+
+Once payment is successfully completed, the non-exclusive license is deemed
+granted immediately. No activation key, account approval or additional delivery
+is required. The current payment link and seller information are published in
+the README and on the shop page. A payment receipt or provider confirmation is
+evidence of the License Fee; it does not replace this license or any mandatory
+rights.
+
+The License Fee is not refundable solely because the Licensee changed their
+mind, selected a larger amount or no longer wants to use the Software. A claim
+may be sent to voit.ne@gmail.com for a duplicate charge, a payment-system
+technical error, or another case where a refund is required by applicable law.
+The request should include the payment date, amount, payer e-mail and Robokassa
+transaction ID. Nothing in this license excludes rights that cannot lawfully be
+excluded or limits the payment provider's mandatory procedures.
+
+6. Termination
+
+This license ends automatically if the Licensee materially breaches it. On
+termination, the Licensee must stop using and distributing the Software and,
+except where retention is required by law, delete working copies. Termination
+does not remove rights or remedies that accrued before termination.
+
+7. No warranty and limitation of liability
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, TO THE MAXIMUM
+EXTENT PERMITTED BY LAW. The Licensor does not warrant that the Software will
+meet the Licensee’s expectations, business processes or particular business
+purpose. The Licensee is solely responsible for checking the Software before
+payment and for deciding whether it is suitable for their work.
+
+To the maximum extent permitted by law, the Licensor is not liable for any loss
+or damage to the Licensee’s business, revenue, profit, data, reputation or
+operations, or for any direct, indirect, incidental, special or consequential
+damages arising from use of, reliance on, or inability to use the Software.
+Mandatory statutory rights remain unaffected.
+
+8. Changes and future versions
+
+The Licensor may publish newer versions of this license for future releases.
+A release is governed by the license file distributed with that release unless
+it expressly says otherwise.
+
+9. Acceptance
+
+Use during the one-month evaluation period indicates acceptance of the trial
+conditions. Payment of the License Fee indicates that the payer has evaluated
+or had the opportunity to evaluate the Software, selected the payment amount
+voluntarily and accepts this license. If the Licensee does not accept it, the
+Licensee must not continue personal or internal business use after the trial or
+distribute the Software.
+
+This document is a software license template for this project, not legal advice.
+Before commercial launch, verify the public offer, tax wording, payment flow
+and mandatory consumer protections with a qualified Russian lawyer.

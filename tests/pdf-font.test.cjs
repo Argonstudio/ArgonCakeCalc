@@ -1,0 +1,5 @@
+/* Copyright (C) 2026 Ivan Voitkov. ARGONCAKECALC-COMMERCIAL-1.0. */
+'use strict';
+const assert=require('node:assert/strict');require('../assets/i18n.js').language='en';
+require('../assets/pdf-font.js');require('../assets/pdf-font-cjk.js');require('../assets/pdf.js');
+(async()=>{let n=0;for(const [title,text,cjk]of [['Cake','Mix. Bake.',false],['Торт','Мука 500 г',false],['Éclair','Crème brûlée',false],['Cake','Mix.\nBake.',false],['蛋糕','面粉 500 g',true],['ケーキ','バター 100 g',true],['Cake 蛋糕','Сахар 100 г',true]]){const blob=CakePDF.create(title,[{heading:'Preparation',lines:[text]}]);assert(blob instanceof Blob);const bytes=Buffer.from(await blob.arrayBuffer());assert.equal(bytes.subarray(0,5).toString(),'%PDF-');if(cjk){assert(blob.size>1e6);assert(bytes.toString('latin1').includes('/FontName /'+CakePdfFontCJK.name));}else assert(blob.size<1e6);n++;}assert.equal(CakePDF.createAsync,undefined);assert.equal(CakePDF.loadCJK,undefined);console.log(`PASS: ${n} synchronous PDF font cases; both fonts ready at startup, multiline Latin stays small, CJK works without DOM or network.`);})().catch(e=>{console.error(e);process.exit(1)});

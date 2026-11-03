@@ -1,0 +1,29 @@
+{
+  "name": "argoncakecalc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first multilingual cake and pastry cost calculator",
+  "author": {
+    "name": "Ivan Voitkov",
+    "url": "https://argon-studio.ru/"
+  },
+  "homepage": "https://github.com/Argonstudio/ArgonCakeCalc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Argonstudio/ArgonCakeCalc.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "python tools/build-locales.py && python tools/build-standalone.py",
+    "check": "python tools/build-locales.py --check && python tools/build-standalone.py --check",
+    "test": "node tests/core.test.cjs && node tests/geometry.test.cjs && node tests/review.test.cjs && node tests/languages.test.cjs && node tests/pdf-font.test.cjs && node tests/sw-cache.test.cjs",
+    "test:oracle": "python tests/independent-oracle.py",
+    "test:browser": "node tests/browser.test.cjs && node tests/storage.test.cjs && node tests/review-browser.test.cjs && node tests/languages-browser.test.cjs && node tests/portable.test.cjs && node tests/update.test.cjs && node tests/subpath.test.cjs && node tests/ui-refinements.test.cjs && node tests/help-expenses.test.cjs && node tests/font-offline.test.cjs && node tests/overview.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
