@@ -1,110 +1,114 @@
 # ArgonCakeCalc
 
-**Kjenn den virkelige kostnaden før du oppgir kakeprisen.**
+[English](README.md) · [Русский](README.ru.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Norsk bokmål](README.nb.md) · [Español](README.es.md) · [Italiano](README.it.md) · [简体中文](README.zh.md) · [日本語](README.ja.md)
 
-> **Nettsted:** **ТУТ ССЫЛКА НА САЙТ**  
-> **Lisensbetaling:** **ТУТ ССЫЛКА НА ОПЛАТУ ROBOKASSA**
+**Kjenn de faktiske kostnadene før du oppgir en pris til kunden.**
 
-[English](README.md) · [Русский](README.ru.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [简体中文](README.zh.md) · [日本語](README.ja.md)
+> **Dire demo:** [https://argonstudio.github.io/ArgonCakeCalc/](https://argonstudio.github.io/ArgonCakeCalc/)  
+> **Lisensbetaling:** **LENKE TIL ROBOKASSA-BETALING LEGGES TIL SENERE**
 
-ArgonCakeCalc er et program som hjelper konditorer. Hovedfunksjoner: lage oppskrifter, lagre ingredienslister, bygge produkter, blant annet kaker i flere etasjer (med visualisering), og få beregnet selvkost og fortjeneste med en gang. Oppskrifter og produkter du har laget, kan lastes ned som PDF. Programmet fungerer lokalt, uten installasjon og uten internett.
+ArgonCakeCalc er et kalkuleringsverktøy for konditorer. Opprett oppskrifter, hold oversikt over ingrediens- og utstyrslister, sett sammen ferdige produkter – også kaker med flere etasjer og visuell forhåndsvisning – og beregn kostnader og fortjeneste underveis. Oppskrifter og ferdige produkter kan eksporteres som PDF.
 
-Du trenger ingen konto, ingen abonnement og ingen skybasert database. Oppskriftene og prisene dine blir værende i nettleseren på enheten din.
+Du bestemmer selv lisensprisen. Minsteprisen for en evigvarende lisens er **1 USD (ca. 9,25 NOK)**. Du kan laste ned og teste hele programmet før du betaler. Se delen [Lisens, prøveperiode og betaling](#lisens-prøveperiode-og-betaling).
 
-## Kom i gang
+**Omtrentlig lokal verdi av 1 USD:** 9,25 NOK. Dette er en omtrentlig omregning basert på referansekurser kontrollert 3. november 2026. Betalingsleverandøren kan vise et annet beløp på grunn av egen valutakurs, avrunding eller gebyrer. Kontroller alltid beløpet som vises før du bekrefter betalingen.
 
-Programmet er én enkelt fil. Du trenger ikke å installere noe.
+Du trenger ingen registrering, abonnement eller skybasert database. Oppskriftene og prisene dine blir værende i nettleseren på enheten din. Programmet kjører lokalt, uten installasjon og uten internettilkobling.
 
-1. Åpne [ArgonCakeCalc-repositoryet på GitHub](https://github.com/Argonstudio/ArgonCakeCalc) og gå til filen [`ArgonCakeCalc.html`](ArgonCakeCalc.html).
-2. Klikk på nedlastingsikonet (**Download raw file**) på filsiden og lagre filen i en mappe der den kan bli liggende.
-3. Åpne den lagrede filen i en moderne nettleser på datamaskin, nettbrett eller smarttelefon.
+## Hurtigstart
 
-Filen inneholder allerede programmet, alle oversettelsene, stilene og PDF-skriftene, så den fungerer uten internett etter nedlasting.
+Programmet består av én HTML-fil. Det er ikke nødvendig å installere noe.
 
-Vil du ikke laste ned noe? Åpne nettstedet: **ТУТ ССЫЛКА НА САЙТ**. På en stabil HTTPS-adresse kan programmet også klargjøre seg for bruk uten nett etter første innlasting.
+1. Åpne [ArgonCakeCalc-repositoriet på GitHub](https://github.com/Argonstudio/ArgonCakeCalc), og gå til filen [`ArgonCakeCalc.html`](ArgonCakeCalc.html).
+2. Klikk på nedlastingsikonet (**Download raw file**) på filsiden, og lagre filen i en mappe der den skal ligge fast.
+3. Åpne den lagrede filen i en moderne nettleser på datamaskinen, nettbrettet eller smarttelefonen.
 
-Grensesnittet åpnes på engelsk. Du kan bytte språk direkte i programmet: russisk, fransk, tysk, norsk bokmål, spansk, italiensk, forenklet kinesisk eller japansk.
+Filen inneholder programmet, alle oversettelsene av grensesnittet, stilarkene og skriftene som brukes i PDF-filer. Etter nedlasting kan den fungere uten internettilkobling.
+
+Vil du helst slippe å laste ned noe? Åpne nettstedet: [ArgonCakeCalc-nettstedet](https://argonstudio.github.io/ArgonCakeCalc/shop/). På en stabil HTTPS-adresse kan programmet også klargjøres for bruk uten nett etter første innlasting.
+
+Grensesnittet åpnes på engelsk. Du kan bytte til russisk, fransk, tysk, norsk bokmål, spansk, italiensk, forenklet kinesisk eller japansk direkte i programmet.
+
+For utviklere: Programmet kan tilpasses og bygges på nytt. Se [DEVELOPMENT.md](DEVELOPMENT.md) (bare på engelsk). En AI-kodeassistent kan hjelpe deg med å utforske koden og gjøre endringer.
 
 > [!WARNING]
-> **Dataene lagres i nettleseren, ikke inne i HTML-filen.** Hvis du flytter eller gir nytt navn til filen, bytter nettleser, sletter nettleserdata eller arbeider i privat modus, kan du miste tilgangen til oppskrifter og priser. Behold filen på ett sted, åpne den alltid i samme nettleser, og eksporter jevnlig en JSON-kopi. Detaljer finner du i avsnittet [Dine data og sikkerhetskopier](#dine-data-og-sikkerhetskopier).
+> **Dataene lagres i nettleseren, ikke i HTML-filen.** Hvis du flytter eller gir filen nytt navn, bytter nettleser, sletter nettleserdata eller bruker privat modus, kan du miste tilgangen til oppskriftene og prisene dine. Oppbevar filen på ett fast sted, åpne den alltid i samme nettleser, og eksporter en JSON-sikkerhetskopi regelmessig. Se delen [Dataene dine og sikkerhetskopier](#dataene-dine-og-sikkerhetskopier).
 
-## Hva programmet kan
+## Hva programmet kan gjøre
 
-- **Materialer.** Før et katalog over ingredienser, dekor, emballasje og forbruksvarer. For hver vare kan du angi pakningspris, mengde per pakning, enhet, kategori og eventuelt tetthet. Gram, kilogram, milliliter og liter støttes. Masse og volum regnes bare om til hverandre når tettheten er kjent, og stykker blir aldri automatisk omgjort til vekt.
-- **Oppskrifter og komponenter.** Lag oppskrifter med utbytte, tilberedningstap, fremgangsmåte og ingredienslinjer. En komponent kan være et materiale eller en annen oppskrift: en fylling kan inneholde en krem, og kremen en sirup. Nestede oppskrifter brytes ned til råvarer, og like komponenter slås sammen til én oversiktlig innkjøpsliste. Når prisen på et materiale endres, beregnes alle oppskrifter og produkter som avhenger av det, på nytt automatisk.
-- **Produktbygger.** Sett sammen et produkt av bunner, fyll, kremer, sirup, overtrekk, dekor og emballasje. Lagre produkter, dupliser dem som maler og sammenlign ulike salgspriser uten å endre den lagrede kalkylen.
-- **Full selvkost.** Legg til arbeid, strøm, leveringskostnader, emballasje, andre kostnader og en reserve for svinn, og angi deretter påslag eller målmargin og om nødvendig en minste fortjeneste. Selvkosten tar bare med den delen av en pakning som faktisk er brukt, mens innkjøpslisten runder pakninger opp.
-- **Skalering.** Regn om en oppskrift etter ønsket utbytte, eller etter diameter og høyde på en rund kake. Hver ingredienslinje kan skaleres proporsjonalt eller etter areal, være fast eller rundes opp til hele stykker. Kakegeometrien er et anslag og ikke en konstruksjons- eller matsikkerhetsberegning.
-- **PDF, innkjøpsliste og sikkerhetskopi.** Eksporter en PDF med ingredienser, råvarer, fremgangsmåte, selvkost, anbefalt pris og mål. Last ned en innkjøpsliste til produksjonen eller for å gi den til den som forbereder bestillingen. Lagre en fullstendig JSON-kopi for å flytte data mellom nettlesere eller enheter.
+- **Materialer.** Hold oversikt over ingredienser, dekor, emballasje og forbruksvarer. For hver vare angir du pakkepris, mengde i pakken, måleenhet, kategori og eventuelt tetthet. Gram, kilogram, milliliter og liter støttes. Masse og volum konverteres bare når tettheten er kjent; stykk konverteres aldri automatisk til vekt.
+- **Oppskrifter og komponenter.** Opprett oppskrifter med utbytte, svinn under tilberedning, instruksjoner og ingredienslinjer. En komponent kan være et materiale eller en annen oppskrift: Et fyll kan inneholde en krem, og kremen kan inneholde en sirup. Oppskrifter som er bygget inn i hverandre, brytes ned til råmaterialene, og like komponenter samles i én oversiktlig handleliste. Når prisen på et materiale endres, beregnes alle tilknyttede oppskrifter og produkter automatisk på nytt.
+- **Produktbygger.** Sett sammen et ferdig produkt av kakebunner, fyll, kremer, dynking, trekk, dekor og emballasje. Lagre produkter, dupliser dem som maler, og sammenlign alternative salgspriser uten å endre den lagrede kalkylen.
+- **Full kostnad.** Legg til arbeid, strøm, leveringskostnader, emballasje, andre utgifter og en reserve for svinn. Angi deretter et påslag eller en ønsket fortjenestemargin og eventuelt en minste fortjeneste. Bare den delen av en pakke som faktisk brukes, tas med i kostnaden; antall pakker på handlelisten rundes opp.
+- **Skalering.** Beregn en oppskrift på nytt ut fra ønsket mengde eller diameter og høyde på en rund kake. Hver ingredienslinje kan skaleres proporsjonalt, etter areal, holdes fast eller rundes opp til hele stykk. Kakens geometri er et hjelpemiddel for overslag, ikke en teknisk beregning av bæreevne eller matsikkerhet.
+- **PDF, handleliste og sikkerhetskopi.** Eksporter en PDF med ingredienser, råvarer, instruksjoner, kostnad, anbefalt pris og mål. Last ned en handleliste til produksjonen eller del den med personen som forbereder bestillingen. Lagre en fullstendig JSON-sikkerhetskopi for å flytte data mellom nettlesere eller enheter.
 
 ## Din første beregning
 
-Ved første oppstart kan du begynne med et tomt arbeidsområde eller en fiktiv demo. Demoen viser raskt arbeidsgangen, men prisene er eksempler og ikke faktiske markedspriser.
+Ved første oppstart kan du begynne med et tomt arbeidsområde eller bruke en fiktiv demo. Demoen viser arbeidsflyten raskt, men prisene er eksempler og gjenspeiler ikke faktiske markedspriser.
 
-1. Legg inn de innkjøpsprisene du faktisk betaler.
-2. Lag en oppskrift og angi utbytte og tap.
-3. Sett sammen et produkt og angi mål eller antall porsjoner.
+1. Legg inn de faktiske innkjøpsprisene dine.
+2. Opprett en oppskrift, og angi utbytte og svinn.
+3. Sett sammen et produkt, og angi mål eller antall porsjoner.
 4. Legg til arbeid, strøm, emballasje og andre kostnader.
-5. Sammenlign salgsprisen etter påslag og etter målmargin.
-6. Eksporter en PDF og en innkjøpsliste, og lagre deretter en JSON-kopi.
+5. Sammenlign salgsprisen beregnet med påslag og ønsket margin.
+6. Eksporter PDF og handleliste, og lagre deretter en JSON-sikkerhetskopi.
 
 ## Slik beregnes prisene
 
-- Utbytte etter tap = oppgitt utbytte × gjenværende prosent etter tap.
-- Pris etter påslag = full selvkost × (1 + påslag % ÷ 100).
-- Pris etter målmargin = full selvkost ÷ (1 − margin % ÷ 100).
-- Anbefalt salgspris rundes opp til presisjonen i valgt valuta.
-- Beregningene er nøyaktige: mellomresultater avrundes ikke for tidlig.
-- Nestede oppskrifter brytes ned til mengder av råvarer.
-- I innkjøpslisten rundes pakninger opp, mens selvkosten bare regner med den delen som faktisk er brukt.
-- Valg av valuta endrer bare betegnelse og presisjon. Det er ingen omregning etter valutakurs.
+- Utbytte etter svinn = angitt utbytte × prosentandelen som er igjen etter svinn.
+- Pris med påslag = full kostnad × (1 + påslag % ÷ 100).
+- Pris etter ønsket margin = full kostnad ÷ (1 − margin % ÷ 100).
+- Anbefalt pris rundes opp til presisjonen for den valgte valutaen.
+- Beregningene er nøyaktige: mellomresultater rundes ikke av på forhånd.
+- Oppskrifter som inngår i andre oppskrifter, brytes ned til mengdene av de opprinnelige materialene.
+- På handlelisten rundes pakker opp; i kostnaden tas bare den delen som faktisk er brukt, med.
+- Valg av valuta endrer bare valutasymbol og presisjon. Det utføres ingen valutakonvertering.
 
-Formler og forutsetninger er beskrevet i [beregningsreglene](docs/CALCULATIONS.md).
+Formlene og forutsetningene er beskrevet i [beregningsreglene](docs/CALCULATIONS.md).
 
-## Dine data og sikkerhetskopier
+## Dataene dine og sikkerhetskopier
 
-Materialer, oppskrifter, produkter og innstillinger lagres i nettleserens IndexedDB, separat for hver nettadresse eller filplassering. Grensesnittspråket lagres som en liten lokal innstilling. Det finnes ingen konto, analyse, skjult skysynkronisering eller serverbasert oppskriftsdatabase, og ingenting sendes uten at du selv gjør det.
+Materialer, oppskrifter, produkter og innstillinger lagres i nettleserens IndexedDB, separat for hver nettstedsadresse eller filplassering. Språket i grensesnittet lagres i en liten lokal innstilling. Det finnes ingen konto, analysefunksjoner, skjult skysynkronisering eller oppskriftsdatabase på en server. Ingenting sendes noe sted uten at du selv gjør noe.
 
-Eksporter JSON-kopier jevnlig, og alltid før du flytter eller gir nytt navn til HTML-filen. Sletting av nettleserdata, privat modus, endret nettadresse, en flyttet fil eller tap av enheten kan gjøre den lokale databasen utilgjengelig. Lagring for en lokal fil (`file://`) kan oppføre seg ulikt i ulike nettlesere; for daglig bruk er en stabil HTTPS-adresse mer pålitelig. Nettleserens tillatelse til vedvarende lagring erstatter ikke en sikkerhetskopi.
+Eksporter JSON-sikkerhetskopier regelmessig, og alltid før du flytter eller gir HTML-filen nytt navn. Sletting av nettleserdata, privat nettlesing, endring av nettstedsadresse, flytting av filen eller tap av enheten kan gjøre den lokale databasen utilgjengelig. Lagring for lokale filer (`file://`) kan fungere forskjellig i ulike nettlesere; en stabil HTTPS-adresse er mer pålitelig ved regelmessig bruk. Tillatelse til varig lagring i nettleseren erstatter ikke sikkerhetskopier.
 
 ## Begrensninger
 
-PDF-en lages på enheten din, uten utskriftsdialog og uten opplasting til en server. Latinske, kyrilliske, kinesiske og japanske tegn støttes; de kinesiske og japanske skriftene gjør filen større. Emoji som ikke støttes, og sjeldne tegn kan vises som `?` i PDF-en.
+PDF-filer opprettes på enheten din, uten utskriftsdialog og uten opplasting til en server. Latinske og kyrilliske tegn samt kinesisk og japansk støttes. Skriftene for kinesisk og japansk gjør programfilen større. Emoji og sjeldne tegn som ikke støttes, kan vises som `?` i PDF-filer.
 
-Programmet har ikke lagerstyring, skattemodul, valutakurser, bestillinger, skykontoer, synkronisering mellom enheter eller konstruksjonsberegning av kakers sikkerhet. Kontroller resultatet selv før du bruker det i produksjon eller til prissetting overfor kunder.
+Programmet har ikke lagerstyring, skattefunksjoner, valutakonvertering, ordrehåndtering, skykontoer, synkronisering mellom enheter eller tekniske beregninger av kakens strukturelle sikkerhet. Kontroller resultatet selv før du bruker det i produksjonen eller oppgir en pris til kunden.
 
 ## Lisens, prøveperiode og betaling
 
-ArgonCakeCalc distribueres under **ArgonCakeCalc Commercial Source-Available License, versjon 1.0**. Kildekoden er åpen for gjennomsyn, men at den er offentlig synlig, gir ikke rett til å videredistribuere, underlisensiere eller publisere endrede versjoner for tredjeparter.
+ArgonCakeCalc distribueres under **ArgonCakeCalc Commercial Source-Available License, versjon 1.0**. Kildekoden er offentlig tilgjengelig for innsyn, men offentlig tilgang gir ikke tillatelse til å distribuere, overføre eller publisere endrede versjoner for tredjeparter. Du kan endre programmet til personlig bruk.
 
-Før betaling kan du laste ned og bruke hele programmet gratis i **én (1) måned** for å vurdere funksjonene og om det passer for oppgavene dine. Programmet er tilgjengelig umiddelbart; aktiveringsnøkkel eller kontogodkjenning er ikke nødvendig.
+Før betaling kan du laste ned og bruke hele programmet gratis i **én (1) måned** for å vurdere funksjonene og om det passer til dine behov. Programmet er tilgjengelig umiddelbart; aktiveringsnøkkel eller kontobekreftelse er ikke nødvendig.
 
-Etter vellykket betaling anses den ikke-eksklusive lisensen som innvilget umiddelbart. Beløpet, fra 1 USD eller tilsvarende beløp som betalingsleverandøren viser, velger du selv, du ser det før bekreftelse, og du bestemmer frivillig. Ethvert valgt beløp, også et som er større enn du senere hadde regnet med, anses som bevisst valgt og refunderes ikke bare fordi du har ombestemt deg eller ikke lenger vil bruke programmet.
+Etter vellykket betaling anses den ikke-eksklusive lisensen som tildelt umiddelbart. Du velger selv lisensbeløpet, fra **1 USD (ca. 9,25 NOK)** eller tilsvarende beløp som betalingsleverandøren viser. Beløpet vises før du bekrefter, og du tar beslutningen frivillig. Ethvert beløp du velger, også et beløp som er høyere enn du senere hadde forventet, regnes som bevisst valgt og refunderes ikke bare fordi du ombestemmer deg eller slutter å bruke programmet.
 
-Etter at lisensen er innvilget, vurderes refusjon bare ved dobbel belastning, teknisk feil i betalingssystemet eller et annet tilfelle som loven uttrykkelig krever. Send henvendelsen til `voit.ne@gmail.com` med betalingsdato, beløp, betalerens e-postadresse og Robokassa-transaksjons-ID.
+NOK-beløpet er en veiledende omregning basert på referansekurser kontrollert 3. november 2026. Beløpet som betalingsleverandøren viser ved betaling, er det som gjelder.
 
-Programmet leveres **«som det er» (AS IS)**. Utvikleren garanterer ikke at det oppfyller dine konkrete forventninger, forretningsprosesser eller formål, og er i størst mulig utstrekning etter loven ikke ansvarlig for skade på virksomhet, omsetning, fortjeneste, data, omdømme eller drift. Du vurderer selv programmet og avgjør om det passer for arbeidet ditt.
+Etter at lisensen er gitt, vurderes refusjon bare ved dobbeltbelastning, teknisk feil i betalingssystemet eller et annet tilfelle som uttrykkelig følger av gjeldende lov. Send henvendelsen til `voit.ne@gmail.com`, og oppgi betalingsdato, beløp, betalerens e-postadresse og Robokassa-transaksjons-ID.
 
-Les [LICENSE](LICENSE), [NOTICE](NOTICE), [ADDITIONAL_TERMS.md](ADDITIONAL_TERMS.md) og [lisensene til tredjepartskomponenter](THIRD_PARTY.md).
+Programmet leveres **«SOM DET ER» (AS IS)**. Utvikleren garanterer ikke at det oppfyller bestemte forventninger, forretningsprosesser eller brukerens tiltenkte formål, og er i den grad loven tillater det, ikke ansvarlig for skade på virksomhet, omsetning, fortjeneste, data, omdømme eller drift. Brukeren er selv ansvarlig for å kontrollere programmet og avgjøre om det passer til egne behov.
 
-## Selger og støtte
+Les [LICENSE](LICENSE), [NOTICE](NOTICE), [ADDITIONAL_TERMS.md](ADDITIONAL_TERMS.md) og [lisensene for tredjepartskomponenter](THIRD_PARTY.md).
 
-- **Selger / rettighetshaver:** selvstendig næringsdrivende Ivan Anatoljevitsj Voitkov
-- **Skatte-ID:** 862203800782
-- **Produkt:** ArgonCakeCalc
-- **Betalingen gjelder:** ikke-eksklusiv bruksrett til programmet
-- **Støtte og krav:** `voit.ne@gmail.com`
-- **Betalingsside:** **ТУТ ССЫЛКА НА ОПЛАТУ ROBOKASSA**
-- **Nettsted:** **ТУТ ССЫЛКА НА САЙТ**
+## Selger og brukerstøtte
 
-Betalingen er en lisensavgift, ikke en donasjon. Den fullstendige informasjonen for Robokassa og myndigheter finnes i [docs/ROBOKASSA.md](docs/ROBOKASSA.md).
+- **Selger / rettighetshaver:** selvstendig næringsdrivende Ivan Anatolyevich Voitkov
+- **Skatteidentifikasjonsnummer (INN):** 862203800782
+- **Programvareprodukt:** ArgonCakeCalc
+- **Betalingsformål:** tildeling av en ikke-eksklusiv rett til å bruke programvaren under en kommersiell lisens
+- **Brukerstøtte og henvendelser:** `voit.ne@gmail.com`
+- **Betalingsside:** **LENKE TIL ROBOKASSA-BETALING LEGGES TIL SENERE**
+- **Tjenestens nettsted:** https://argonstudio.github.io/ArgonCakeCalc/shop/
+
+Betalingen er en lisensavgift, ikke en donasjon. Den fullstendige informasjonen for Robokassa og tilsynsmyndigheter finnes i [docs/ROBOKASSA.md](docs/ROBOKASSA.md).
 
 ## Forfatter
 
-**Ivan Voitkov** · [forfatterens nettsted](https://argon-studio.ru/) · [GitHub](https://github.com/Argonstudio) · [repository](https://github.com/Argonstudio/ArgonCakeCalc)
+**Ivan Voitkov** · [forfatterens nettsted](https://argon-studio.ru/) · [GitHub](https://github.com/Argonstudio) · [prosjektets repositorium](https://github.com/Argonstudio/ArgonCakeCalc)
 
-Prosjektet er laget av ChatGPT (OpenAI) i samarbeid med Ivan Voitkov. Ivan Voitkov er fortsatt oppgitt som prosjektets forfatter.
-
----
-
-For utviklere og bidragsytere: [DEVELOPMENT.md](DEVELOPMENT.md) (kun på engelsk).
+ChatGPT (OpenAI) er medforfatter. Takk til utviklerne av dette bemerkelsesverdige verktøyet.
