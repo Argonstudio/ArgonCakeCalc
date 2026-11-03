@@ -9,9 +9,9 @@
 
 ArgonCakeCalc es una herramienta de cálculo de costes para profesionales de la repostería. Permite crear recetas, mantener listas de ingredientes y suministros, montar productos terminados —incluidas tartas de varios pisos con visualización— y calcular al instante los costes y el beneficio. Las recetas y los productos creados se pueden exportar a PDF.
 
-Tú decides el precio de la licencia. El precio mínimo de una licencia perpetua es **1 USD (aprox. 0,89 EUR)**. Puedes descargar y probar la aplicación completa antes de pagar. Consulta la sección [Licencia, prueba y pago](#licencia-prueba-y-pago).
+Tú decides el precio de la licencia. El precio mínimo de una licencia perpetua es **1 USD (0,89 EUR al tipo de cambio actual)**. Puedes descargar y probar la aplicación completa antes de pagar. Consulta la sección [Licencia, prueba y pago](#licencia-prueba-y-pago).
 
-**Equivalente local aproximado de 1 USD:** 0,89 EUR. Es una conversión orientativa basada en los tipos de referencia consultados el 3 de noviembre de 2026. El proveedor de pagos puede mostrar otro importe debido a su tipo de cambio, redondeos o comisiones. Comprueba siempre el importe que aparece antes de confirmar el pago.
+El equivalente en euros indicado entre paréntesis se calcula según los tipos de referencia consultados el 3 de noviembre de 2026. El proveedor de pagos puede mostrar otro importe debido a su tipo de cambio, redondeos o comisiones. Comprueba siempre el importe que aparece antes de confirmar el pago.
 
 No necesitas registrarte, contratar una suscripción ni usar una base de datos en la nube. Tus recetas y precios permanecen en el navegador de tu dispositivo. La aplicación funciona localmente, sin instalación y sin conexión a Internet.
 
@@ -85,9 +85,9 @@ ArgonCakeCalc se distribuye bajo la **ArgonCakeCalc Commercial Source-Available 
 
 Antes de pagar, puedes descargar y utilizar gratuitamente la aplicación completa durante **un (1) mes** para evaluar sus funciones y comprobar si se adapta a tus necesidades. La aplicación está disponible de inmediato; no se necesita una clave de activación ni confirmar una cuenta.
 
-Tras completarse el pago, se considera que la licencia no exclusiva se ha concedido inmediatamente. Tú eliges el importe de la licencia, desde **1 USD (aprox. 0,89 EUR)** o el equivalente que muestre el proveedor de pagos. Puedes ver el importe antes de confirmarlo y decides voluntariamente. Cualquier importe que elijas, incluso si es superior al que esperabas posteriormente, se considera una elección consciente y no se reembolsa únicamente porque cambies de opinión o dejes de utilizar el programa.
+Tras completarse el pago, se considera que la licencia no exclusiva se ha concedido inmediatamente. Tú eliges el importe de la licencia, desde **1 USD (0,89 EUR al tipo de cambio actual)** o el equivalente que muestre el proveedor de pagos. Puedes ver el importe antes de confirmarlo y decides voluntariamente. Cualquier importe que elijas, incluso si es superior al que esperabas posteriormente, se considera una elección consciente y no se reembolsa únicamente porque cambies de opinión o dejes de utilizar el programa.
 
-El equivalente de 0,89 EUR es orientativo y se basa en los tipos de referencia consultados el 3 de noviembre de 2026. Prevalece el importe que muestre el proveedor en el momento del pago.
+El equivalente en euros indicado entre paréntesis se calcula según los tipos de referencia consultados el 3 de noviembre de 2026. Prevalece el importe que muestre el proveedor en el momento del pago.
 
 Una vez concedida la licencia, solo se estudiará un reembolso en caso de un cargo duplicado, un error técnico del sistema de pago u otro supuesto expresamente previsto por la legislación aplicable. Envía la solicitud a `voit.ne@gmail.com` e incluye la fecha del pago, el importe, el correo electrónico del pagador y el identificador de la operación de Robokassa.
 

@@ -9,9 +9,9 @@
 
 ArgonCakeCalc er et kalkuleringsverktøy for konditorer. Opprett oppskrifter, hold oversikt over ingrediens- og utstyrslister, sett sammen ferdige produkter – også kaker med flere etasjer og visuell forhåndsvisning – og beregn kostnader og fortjeneste underveis. Oppskrifter og ferdige produkter kan eksporteres som PDF.
 
-Du bestemmer selv lisensprisen. Minsteprisen for en evigvarende lisens er **1 USD (ca. 9,25 NOK)**. Du kan laste ned og teste hele programmet før du betaler. Se delen [Lisens, prøveperiode og betaling](#lisens-prøveperiode-og-betaling).
+Du bestemmer selv lisensprisen. Minsteprisen for en evigvarende lisens er **1 USD (9,24 NOK etter gjeldende valutakurs)**. Du kan laste ned og teste hele programmet før du betaler. Se delen [Lisens, prøveperiode og betaling](#lisens-prøveperiode-og-betaling).
 
-**Omtrentlig lokal verdi av 1 USD:** 9,25 NOK. Dette er en omtrentlig omregning basert på referansekurser kontrollert 3. november 2026. Betalingsleverandøren kan vise et annet beløp på grunn av egen valutakurs, avrunding eller gebyrer. Kontroller alltid beløpet som vises før du bekrefter betalingen.
+NOK-beløpet i parentes er beregnet ut fra referansekurser kontrollert 3. november 2026. Betalingsleverandøren kan vise et annet beløp på grunn av egen valutakurs, avrunding eller gebyrer. Kontroller alltid beløpet som vises før du bekrefter betalingen.
 
 Du trenger ingen registrering, abonnement eller skybasert database. Oppskriftene og prisene dine blir værende i nettleseren på enheten din. Programmet kjører lokalt, uten installasjon og uten internettilkobling.
 
@@ -85,9 +85,9 @@ ArgonCakeCalc distribueres under **ArgonCakeCalc Commercial Source-Available Lic
 
 Før betaling kan du laste ned og bruke hele programmet gratis i **én (1) måned** for å vurdere funksjonene og om det passer til dine behov. Programmet er tilgjengelig umiddelbart; aktiveringsnøkkel eller kontobekreftelse er ikke nødvendig.
 
-Etter vellykket betaling anses den ikke-eksklusive lisensen som tildelt umiddelbart. Du velger selv lisensbeløpet, fra **1 USD (ca. 9,25 NOK)** eller tilsvarende beløp som betalingsleverandøren viser. Beløpet vises før du bekrefter, og du tar beslutningen frivillig. Ethvert beløp du velger, også et beløp som er høyere enn du senere hadde forventet, regnes som bevisst valgt og refunderes ikke bare fordi du ombestemmer deg eller slutter å bruke programmet.
+Etter vellykket betaling anses den ikke-eksklusive lisensen som tildelt umiddelbart. Du velger selv lisensbeløpet, fra **1 USD (9,24 NOK etter gjeldende valutakurs)** eller tilsvarende beløp som betalingsleverandøren viser. Beløpet vises før du bekrefter, og du tar beslutningen frivillig. Ethvert beløp du velger, også et beløp som er høyere enn du senere hadde forventet, regnes som bevisst valgt og refunderes ikke bare fordi du ombestemmer deg eller slutter å bruke programmet.
 
-NOK-beløpet er en veiledende omregning basert på referansekurser kontrollert 3. november 2026. Beløpet som betalingsleverandøren viser ved betaling, er det som gjelder.
+NOK-beløpet i parentes er beregnet ut fra referansekurser kontrollert 3. november 2026. Beløpet som betalingsleverandøren viser ved betaling, er det som gjelder.
 
 Etter at lisensen er gitt, vurderes refusjon bare ved dobbeltbelastning, teknisk feil i betalingssystemet eller et annet tilfelle som uttrykkelig følger av gjeldende lov. Send henvendelsen til `voit.ne@gmail.com`, og oppgi betalingsdato, beløp, betalerens e-postadresse og Robokassa-transaksjons-ID.
 

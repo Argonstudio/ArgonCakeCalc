@@ -9,9 +9,9 @@
 
 ArgonCakeCalc ist ein Kalkulationsprogramm für Konditoren. Erstellen Sie Rezepte, pflegen Sie Zutaten- und Materiallisten, stellen Sie fertige Produkte zusammen – auch mehrstöckige Torten mit visueller Vorschau – und berechnen Sie unmittelbar Kosten und Gewinn. Rezepte und fertige Produkte können als PDF exportiert werden.
 
-Den Lizenzpreis bestimmen Sie selbst. Der Mindestpreis für eine unbefristete Lizenz beträgt **1 USD (ca. 0,89 EUR)**. Sie können die vollständige Anwendung vor dem Kauf herunterladen und testen. Weitere Informationen finden Sie im Abschnitt [Lizenz, Testphase und Zahlung](#lizenz-testphase-und-zahlung).
+Den Lizenzpreis bestimmen Sie selbst. Der Mindestpreis für eine unbefristete Lizenz beträgt **1 USD (0,89 EUR zum aktuellen Wechselkurs)**. Sie können die vollständige Anwendung vor dem Kauf herunterladen und testen. Weitere Informationen finden Sie im Abschnitt [Lizenz, Testphase und Zahlung](#lizenz-testphase-und-zahlung).
 
-**Ungefähre Umrechnung von 1 USD:** 0,89 EUR. Dies ist ein ungefährer Gegenwert auf Grundlage der am 3. November 2026 geprüften Referenzkurse. Der Zahlungsanbieter kann aufgrund eigener Wechselkurse, Rundungen oder Gebühren einen anderen Betrag anzeigen. Prüfen Sie daher immer den vor der Zahlungsbestätigung angezeigten Betrag.
+Der in Klammern angegebene Euro-Gegenwert basiert auf den am 3. November 2026 geprüften Referenzkursen. Der Zahlungsanbieter kann aufgrund eigener Wechselkurse, Rundungen oder Gebühren einen anderen Betrag anzeigen. Prüfen Sie daher immer den vor der Zahlungsbestätigung angezeigten Betrag.
 
 Es sind keine Registrierung, kein Abonnement und keine Cloud-Datenbank erforderlich. Ihre Rezepte und Preise bleiben im Browser auf Ihrem Gerät. Die Anwendung läuft lokal, ohne Installation und ohne Internetverbindung.
 
@@ -85,9 +85,9 @@ ArgonCakeCalc wird unter der **ArgonCakeCalc Commercial Source-Available License
 
 Vor der Zahlung können Sie die vollständige Anwendung **einen (1) Monat** lang kostenlos herunterladen und nutzen, um die Funktionen und die Eignung für Ihre Aufgaben zu prüfen. Die Anwendung ist sofort verfügbar; ein Aktivierungsschlüssel oder eine Kontobestätigung ist nicht erforderlich.
 
-Nach erfolgreicher Zahlung gilt die nicht ausschließliche Lizenz sofort als erteilt. Sie bestimmen den Lizenzbetrag selbst, beginnend bei **1 USD (ca. 0,89 EUR)** oder dem entsprechenden Betrag, den der Zahlungsanbieter anzeigt. Der Betrag wird vor der Bestätigung angezeigt; die Entscheidung treffen Sie freiwillig. Jeder von Ihnen gewählte Betrag, auch wenn er höher ausfällt als später erwartet, gilt als bewusst gewählt und wird nicht allein deshalb erstattet, weil Sie Ihre Meinung ändern oder das Programm nicht mehr nutzen möchten.
+Nach erfolgreicher Zahlung gilt die nicht ausschließliche Lizenz sofort als erteilt. Sie bestimmen den Lizenzbetrag selbst, beginnend bei **1 USD (0,89 EUR zum aktuellen Wechselkurs)** oder dem entsprechenden Betrag, den der Zahlungsanbieter anzeigt. Der Betrag wird vor der Bestätigung angezeigt; die Entscheidung treffen Sie freiwillig. Jeder von Ihnen gewählte Betrag, auch wenn er höher ausfällt als später erwartet, gilt als bewusst gewählt und wird nicht allein deshalb erstattet, weil Sie Ihre Meinung ändern oder das Programm nicht mehr nutzen möchten.
 
-Der Euro-Gegenwert ist ein Richtwert auf Basis der am 3. November 2026 geprüften Referenzkurse. Maßgeblich ist der Betrag, den der Zahlungsanbieter beim Bezahlvorgang anzeigt.
+Der in Klammern angegebene Euro-Gegenwert basiert auf den am 3. November 2026 geprüften Referenzkursen. Maßgeblich ist der Betrag, den der Zahlungsanbieter beim Bezahlvorgang anzeigt.
 
 Nach Erteilung der Lizenz wird eine Rückerstattung nur bei einer doppelten Abbuchung, einem technischen Fehler des Zahlungssystems oder in einem anderen gesetzlich ausdrücklich vorgesehenen Fall geprüft. Senden Sie Ihre Anfrage an `voit.ne@gmail.com` und geben Sie Zahlungsdatum, Betrag, E-Mail-Adresse des Zahlenden und die Robokassa-Transaktions-ID an.
 

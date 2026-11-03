@@ -9,8 +9,9 @@
 
 ArgonCakeCalc is a costing tool for confectioners. Create recipes, maintain ingredient and supply lists, assemble finished products — including multi-tier cakes with a visual preview — and calculate costs and profit as you work. Export recipes and finished products to PDF.
 
-You choose the license price. The minimum price for a perpetual license is **$1 (USD 1.00)**. You can download and test the full application before paying. See [License, trial and payment](#license-trial-and-payment).
+You choose the license price. The minimum price for a perpetual license is **$1 (equivalent to €0.89, NOK 9.24, CNY 6.67 or JPY 158 at current exchange rates)**. You can download and test the full application before paying. See [License, trial and payment](#license-trial-and-payment).
 
+The local-currency equivalents in parentheses are based on reference rates checked on 3 November 2026. The payment provider may show a different amount because of its exchange rate, rounding or fees; always check the amount shown before confirming payment.
 
 There is no registration, subscription or cloud database. Your recipes and prices stay in your browser on your device. The application can run locally without installation or an internet connection.
 
@@ -84,9 +85,9 @@ ArgonCakeCalc is distributed under the **ArgonCakeCalc Commercial Source-Availab
 
 Before paying, you may download and use the full application free of charge for **one (1) month** to evaluate its features and decide whether it suits your needs. The application is available immediately; no activation key or account confirmation is required.
 
-After successful payment, the non-exclusive license is deemed granted immediately. You choose the license amount, starting at **$1 (USD 1.00)** or the equivalent amount shown by the payment provider. You can see the amount before confirming and make the decision voluntarily. Any amount you select, including an amount higher than you later expected, is treated as intentional and is not refundable merely because you change your mind or stop using the application.
+After successful payment, the non-exclusive license is deemed granted immediately. You choose the license amount, starting at **$1 (equivalent to €0.89, NOK 9.24, CNY 6.67 or JPY 158 at current exchange rates)** or the equivalent amount shown by the payment provider. You can see the amount before confirming and make the decision voluntarily. Any amount you select, including an amount higher than you later expected, is treated as intentional and is not refundable merely because you change your mind or stop using the application.
 
-Indicative equivalents for the $1 minimum, based on reference rates checked on 3 November 2026: **€0.89 (EUR), kr 9.25 (NOK), ¥6.67 (CNY), ¥158 (JPY)**. These figures are not a payment quote. The provider's displayed amount and terms apply at checkout.
+The local-currency equivalents shown in parentheses are based on reference rates checked on 3 November 2026. They are not a payment quote; the provider's displayed amount and terms apply at checkout.
 
 After the license has been granted, a refund is considered only in the event of a duplicate charge, a payment-system technical error or another case expressly required by applicable law. Send requests to `voit.ne@gmail.com`, including the payment date, amount, payer's e-mail address and Robokassa transaction ID.
 
