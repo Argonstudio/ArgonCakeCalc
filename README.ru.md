@@ -107,5 +107,5 @@ ArgonCakeCalc распространяется по **ArgonCakeCalc Commercial S
 
 **Ivan Voitkov** · [сайт автора](https://argon-studio.ru/) · [GitHub](https://github.com/Argonstudio) · [репозиторий проекта](https://github.com/Argonstudio/ArgonCakeCalc)
 
-Автор проекта Ivan Voitkov, в работе использовался ChatGPT (OpenAI).
+Соавтор ChatGPT (OpenAI), моя благодарность разработчикам этого замечательного робота.
 
