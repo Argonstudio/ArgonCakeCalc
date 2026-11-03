@@ -4,7 +4,7 @@
 
 **Знайте себестоимость до того, как назвать цену клиенту.**
 
-> **Пример программы:** [https://argonstudio.github.io/ArgonCakeCalc/](https://argonstudio.github.io/ArgonCakeCalc/) 
+> **Пример программы:** [https://argonstudio.github.io/ArgonCakeCalc/](https://argonstudio.github.io/ArgonCakeCalc/)
 > **Оплата лицензии:** **ТУТ ССЫЛКА НА ОПЛАТУ ROBOKASSA**
 
 Сколько стоит программы вы оцениваете сами, минимальная цена бессрочной лицензии 80руб(1$ в рублях по текущему курсу). Вы можете скачать и протестировать программу перед покупкой. [Подробнее](#%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-%D0%BF%D1%80%D0%BE%D0%B1%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4-%D0%B8-%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0).
