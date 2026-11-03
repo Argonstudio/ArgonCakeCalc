@@ -9,7 +9,7 @@
 
 [Русский](README.ru.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Norsk](README.nb.md) · [Español](README.es.md) · [Italiano](README.it.md) · [简体中文](README.zh.md) · [日本語](README.ja.md)
 
-[Robokassa and regulatory information](docs/ROBOKASSA.md#информация-для-robokassa-и-контролирующих-органов)
+[Информация для Robokassa и контролирующих органов](docs/ROBOKASSA.md#информация-для-robokassa-и-контролирующих-органов)
 
 ArgonCakeCalc is a private, offline-first workspace for confectioners. Enter your purchase prices once, build nested recipes, scale a cake, see the true cost, prepare a shopping list and export a clean PDF — without an account or a cloud database.
 
