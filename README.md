@@ -11,7 +11,6 @@ ArgonCakeCalc is a costing tool for confectioners. Create recipes, maintain ingr
 
 You choose the license price. The minimum price for a perpetual license is **$1 (USD 1.00)**. You can download and test the full application before paying. See [License, trial and payment](#license-trial-and-payment).
 
-**Indicative local-currency equivalents for $1:** €0.89 (EUR), kr 9.25 (NOK), ¥6.67 (CNY), or ¥158 (JPY). These are approximate reference-rate conversions checked on 3 November 2026. The payment provider may show a different amount because of its exchange rate, rounding or fees; always check the amount shown before confirming payment.
 
 There is no registration, subscription or cloud database. Your recipes and prices stay in your browser on your device. The application can run locally without installation or an internet connection.
 
